@@ -1,0 +1,283 @@
+.container {
+  width: 100%;
+  height: 68vh;
+  justify-content: space-between;
+}
+
+
+
+
+
+/* Reset default list styles and remove link underlines */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline; /* Display list items horizontally */
+  margin-left: 20px; /* Add spacing between items; adjust as needed */
+}
+
+a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Link text color */
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;  
+  padding: 10px;
+  transition-property: all;
+  transition-duration: 3s;
+}
+
+.logo img {
+  width: 100px; 
+}
+
+.logo img:hover {
+  width: 150px; 
+}
+
+.menu {
+  text-align: right; 
+}
+
+a:hover {
+  color: #ffae00;  
+}
+/* 
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  transition-property: all;
+  transition-duration: 5s;
+  transition-delay: 2s;
+  padding: 10px;
+  padding-right: 20px;
+
+
+}
+
+.navbar :hover {
+  color: rgb(214, 167, 10);
+}
+
+.navbar {
+  background-color: black;
+  color: aliceblue;
+} */
+
+
+
+body {
+  background: beige;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*div{
+  background-color:white;
+
+}*/
+
+
+.abc {
+  border: 2px solid black;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fwebsite-background&psig=AOvVaw3BkpKTfIt1syFtWBghCKI6&ust=1697506121515000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJC1pZy1-YEDFQAAAAAdAAAAABAJ');
+}
+
+.abc:hover {
+  border: 5px solid rgb(255, 179, 0);
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+
+
+h4 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+div {
+
+  display: inline-block;
+}
+
+#box1 {
+  height: 200px;
+  width: 200px;
+}
+
+#box2 {
+  height: 300px;
+  width: 800px;
+  font-size: large;
+  padding: 20px;
+
+}
+
+#box2 p {
+  justify-content: space-evenly;
+  display: flex;
+  padding: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: larger;
+  transition: text-decoration 0.3s;
+
+}
+
+#box2 p:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.download-button {
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  /* Yellow background color */
+  color: #333;
+  /* Text color */
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.download-button:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  /* Shadow on hover */
+  transform: translateY(-2px);
+  color: rgb(0, 0, 0);
+  /* Lift the button on hover */
+}
+
+
+
+
+
+
+.text {
+  font-size: 20px;
+
+}
+
+p {
+  text-align: right;
+
+}
+
+pre {
+  background-color: black;
+  font-style: bold;
+  font-weight: bold;
+
+}
+
+ul {
+  color: white;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+
+li {
+  color: white;
+
+
+}
+
+@media(max-width: 600px) {
+  div {
+    /* background-color: #080808; */
+    background-color: #d89af5;
+    /* background-color: ; */
+  }
+
+}
+
+/* footer p{
+    justify-content: space-evenly;
+    display:flex;
+    
+    
+   }
+   footer{
+    height: 50px;
+    margin-top: auto;
+    background-color: #080808;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    /* gap: 1px; */
+/* } */
+/* #box1{ */
+/* align-items: baseline; */
+/* } */
+/* */
+
+
+.footer {
+  background-color: #333;
+  width: 98%;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* .footer  p {
+    text-align: center;
+  } */
+
+
+.logo {
+  width: 35px;
+  height: 35px;
+  margin: 0 5px;
+}
+
+.logo:hover {
+  width: 41px;
+  height: 41px;
+  margin: 0 5px;
+}
